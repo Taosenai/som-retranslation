@@ -1,0 +1,13 @@
+DTE Table Address
+
+$60-$7C: ROM $077299-$0772D2
+e  ts inout anheerreond ..orhallo ow s, eneathst w a! arhi
+
+$D3-$FF: ROM $0772B9-$077312
+ow s, eneathst w a! arhi Iisalit my ataca Thmeomag ced yve bleus Wghliooseckofest' daygo
+
+$71-$7C are the same as $D3-$DF
+ow s, eneathst w a! arhi
+
+61 total DTE characters possible
+DTE table is 122 consecutive bytes $077299-$077312

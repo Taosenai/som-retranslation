@@ -1,0 +1,12 @@
+*.sfc
+*.srm
+*.smc
+*.bst
+*.bp
+*.log
+script_*.txt
+merged-script_*.txt
+trash/
+trash/*
+__pycache__
+som.code-workspace

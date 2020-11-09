@@ -1,0 +1,28 @@
+TODO
+-----
+Secret of Mana ROM
+
+	- atlasify for som
+	- atlasify for script_som-menu; need to add JMP commands for blocks
+
+	Graphics
+	- Patch title screen (from Turbo)
+	- New logo (use somedit to see how to replace)
+	- Patch censorship (from Turbo)
+
+	Menu things fixed in Proper Caser patch (Turbo). Reference for locations
+	- Figure out "Weapon skil"
+	- Figure out "0: 99Spear" issue
+	- ON/CE from Constitution/Intelligence
+
+	ASCII blocks
+	- What is the encoding here? Partial ASCII but lots of garbage
+	- Opening scroll ROM $07BA80
+	- Alphabet and All Rights Reserved at ROM $07C106
+	- Japanese Credits ROM $09F405
+	- English credits ROM $0A4F01
+
+
+Seiken Densetsu 2 ROM
+
+	- Haven't figured out how to decode any of the menu text

@@ -1,0 +1,17 @@
+Event Script Pointers A: C9:0000 - C9:07FF
+Event Script Pointers B: CA:0000 - CA:0C01
+
+
+(c1/e7A2)01E7A2 -- start of event pointer set code
+
+
+
+
+C90800   -- first pointer location (pointer 0008)
+
+
+text start 090800
+text end 09F2D6
+
+
+potato 908F9481948F

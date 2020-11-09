@@ -1,0 +1,21 @@
+#GAME NAME:		Secret of Mana Turbo (VWF/Relocalized)
+
+// These are spell and weapon names from the second vanilla event bank.
+// VWF uses DTE to fit more text here, rather than rewriting the pointer
+// table to go elsewhere.
+
+#BLOCK NAME:		Partial Vanilla Bank 2
+#TYPE:			NORMAL
+#METHOD:		POINTER_RELATIVE
+#POINTER ENDIAN:	LITTLE
+#POINTER TABLE START:	$0A0800
+#POINTER TABLE STOP:	$0A0C01
+#POINTER SIZE:		$02
+#POINTER SPACE:		$00
+#ATLAS PTRS:		Yes
+#BASE POINTER:		$0A0000
+#TABLE:			tbl_som.tbl
+#COMMENTS:		No
+#END BLOCK
+
+// TODO: Ending ASCII RAW dump, menu ASCII dump

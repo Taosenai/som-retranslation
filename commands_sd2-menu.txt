@@ -1,0 +1,169 @@
+#GAME NAME:		Seiken Densetsu 2
+
+#BLOCK NAME:		Menu 1
+#TYPE:			NORMAL
+#METHOD:		POINTER_RELATIVE
+#POINTER ENDIAN:	LITTLE
+#POINTER TABLE START:	$005F85
+#POINTER TABLE STOP:	$006030
+#POINTER SIZE:		$02
+#POINTER SPACE:		$00
+#ATLAS PTRS:		Yes
+#BASE POINTER:		$00
+#TABLE:			tbl_sd2.tbl
+#COMMENTS:		No
+#END BLOCK
+
+#BLOCK NAME:		Menu 2
+#TYPE:			NORMAL
+#METHOD:		POINTER_RELATIVE
+#POINTER ENDIAN:	LITTLE
+#POINTER TABLE START:	$0777F8
+#POINTER TABLE STOP:	$077839
+#POINTER SIZE:		$02
+#POINTER SPACE:		$00
+#ATLAS PTRS:		Yes
+#BASE POINTER:		$070000
+#TABLE:			tbl_sd2.tbl
+#COMMENTS:		No
+#END BLOCK
+
+// #BLOCK NAME:		Menu 3
+// #TYPE:			NORMAL
+// #METHOD:		POINTER_RELATIVE
+// #POINTER ENDIAN:	LITTLE
+// #POINTER TABLE START:	$077BB7
+// #POINTER TABLE STOP:	$077BC6
+// #POINTER SIZE:		$02
+// #POINTER SPACE:		$00
+// #ATLAS PTRS:		Yes
+// #BASE POINTER:		$070000
+// #TABLE:			tbl_sd2.tbl
+// #COMMENTS:		No
+// #END BLOCK
+// 
+// #BLOCK NAME:	Energy orb?	
+// #TYPE:			NORMAL
+// #METHOD:		RAW
+// #COMMENTS:		No
+// #TABLE:			tbl_sd2.tbl
+// #SCRIPT START:	$77BAA
+// #SCRIPT STOP:	$77BB5
+// #END BLOCK
+// 
+// #BLOCK NAME:	Check the magic	
+// #TYPE:			NORMAL
+// #METHOD:		RAW
+// #COMMENTS:		No
+// #TABLE:			tbl_sd2.tbl
+// #SCRIPT START:	$778D4
+// #SCRIPT STOP:	$7795F
+// #END BLOCK
+// 
+// #BLOCK NAME:	Stats
+// #TYPE:			NORMAL
+// #METHOD:		RAW
+// #COMMENTS:		No
+// #TABLE:			tbl_sd2.tbl
+// #SCRIPT START:	$77A28
+// #SCRIPT STOP:	$77A8E
+// #END BLOCK
+// 
+// #BLOCK NAME:	Start options
+// #TYPE:			NORMAL
+// #METHOD:		RAW
+// #COMMENTS:		No
+// #TABLE:			tbl_sd2.tbl
+// #SCRIPT START:	$77313
+// #SCRIPT STOP:	$77340
+// #END BLOCK
+// 
+// #BLOCK NAME:	More start options
+// #TYPE:			NORMAL
+// #METHOD:		RAW
+// #COMMENTS:		No
+// #TABLE:			tbl_sd2.tbl
+// #SCRIPT START:	$7757E
+// #SCRIPT STOP:	$77584
+// #END BLOCK
+// 
+// #BLOCK NAME:	More start options dupe
+// #TYPE:			NORMAL
+// #METHOD:		RAW
+// #COMMENTS:		No
+// #TABLE:			tbl_sd2.tbl
+// #SCRIPT START:	$77340
+// #SCRIPT STOP:	$7734F
+// #END BLOCK
+// 
+// #BLOCK NAME:	Alphabet for name
+// #TYPE:			NORMAL
+// #METHOD:		RAW
+// #COMMENTS:		No
+// #TABLE:			tbl_sd2.tbl
+// #SCRIPT START:	$774AD
+// #SCRIPT STOP:	$774EA
+// #END BLOCK
+// 
+// #BLOCK NAME:	AI Command
+// #TYPE:			NORMAL
+// #METHOD:		RAW
+// #COMMENTS:		No
+// #TABLE:			tbl_sd2.tbl
+// #SCRIPT START:	$773DF
+// #SCRIPT STOP:	$77400
+// #END BLOCK
+// 
+// #BLOCK NAME:	Buttons
+// #TYPE:			NORMAL
+// #METHOD:		RAW
+// #COMMENTS:		No
+// #TABLE:			tbl_sd2.tbl
+// #SCRIPT START:	$773BC
+// #SCRIPT STOP:	$773DF
+// #END BLOCK
+// 
+// #BLOCK NAME:	More buttons guide
+// #TYPE:			NORMAL
+// #METHOD:		RAW
+// #COMMENTS:		No
+// #TABLE:			tbl_sd2.tbl
+// #SCRIPT START:	$77400
+// #SCRIPT STOP:	$7745B
+// #END BLOCK
+// 
+// #BLOCK NAME:	Skill 1
+// #TYPE:			NORMAL
+// #METHOD:		RAW
+// #COMMENTS:		No
+// #TABLE:			tbl_sd2.tbl
+// #SCRIPT START:	$77484
+// #SCRIPT STOP:	$774AD
+// #END BLOCK
+// 
+// #BLOCK NAME:	Skill 2
+// #TYPE:			NORMAL
+// #METHOD:		RAW
+// #COMMENTS:		No
+// #TABLE:			tbl_sd2.tbl
+// #SCRIPT START:	$7745B
+// #SCRIPT STOP:	$77484
+// #END BLOCK
+// 
+// #BLOCK NAME:	Character sheet
+// #TYPE:			NORMAL
+// #METHOD:		RAW
+// #COMMENTS:		No
+// #TABLE:			tbl_sd2.tbl
+// #SCRIPT START:	$7734F
+// #SCRIPT STOP:	$773BC
+// #END BLOCK
+// 
+// #BLOCK NAME:	Opening and more menu blocks
+// #TYPE:			NORMAL
+// #METHOD:		RAW
+// #COMMENTS:		No
+// #TABLE:			tbl_sd2.tbl
+// #SCRIPT START:	$33F0
+// #SCRIPT STOP:	$368E
+// #END BLOCK

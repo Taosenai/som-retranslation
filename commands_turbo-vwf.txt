@@ -1,0 +1,33 @@
+#GAME NAME:		Secret of Mana Turbo (VWF/Relocalized)
+
+// Turbo uses a different pointer table setup, with $E1 and $E2 as spacers between each pointer in the table. 
+
+#BLOCK NAME:		Bank 1
+#TYPE:			NORMAL
+#METHOD:		POINTER_RELATIVE
+#POINTER ENDIAN:	LITTLE
+#POINTER TABLE START:	$206000
+#POINTER TABLE STOP:	$2068AE
+#POINTER SIZE:		$02
+#POINTER SPACE:		$01
+#ATLAS PTRS:		Yes
+#BASE POINTER:		$210000
+#TABLE:			tbl_som.tbl
+#COMMENTS:		No
+#END BLOCK
+
+#BLOCK NAME:		Bank 2
+#TYPE:			NORMAL
+#METHOD:		POINTER_RELATIVE
+#POINTER ENDIAN:	LITTLE
+#POINTER TABLE START:	$2068AF
+#POINTER TABLE STOP:	$2077FF
+#POINTER SIZE:		$02
+#POINTER SPACE:		$01
+#ATLAS PTRS:		Yes
+#BASE POINTER:		$220000
+#TABLE:			tbl_som.tbl
+#COMMENTS:		No
+#END BLOCK
+
+// TODO: Ending ASCII RAW dump, menu ASCII dump

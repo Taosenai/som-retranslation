@@ -1,0 +1,5 @@
+regexes:
+
+match [TAGS]   \[[^\]]*\]
+match bytes    <...>
+

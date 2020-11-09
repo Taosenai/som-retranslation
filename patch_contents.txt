@@ -1,0 +1,19 @@
+Patch Changes
+
+$00FFD7   0B to 0C: Enlarge ROM
+
+$001932   CA to E4: Databank for weapon names pointers (SNES E4 is ROM 24)
+$001929   CA to E4: Databank 2 for weapon names
+
+$01E7A5   C9 to E1: Databank 1 for events
+$01E7AB   C9 to E1: Databank 1 for events
+$01E7B1   CA to E4: Databank 2 for events (SNES E4 is ROM 24)
+$01E7B7   CA to E4: Databank 2 for events
+
+
+
+
+To make a new patch:
+.\xdelta\xdelta.exe -f -e -s som.orig.sfc som.sfc .\patch_som.move-bank-locations.xdelta
+
+
