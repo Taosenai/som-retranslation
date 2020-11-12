@@ -1,8 +1,6 @@
 # Event script commands
 # https://wiki.superfamicom.org/seiken-densetsu-2#toc-10
-
 /00=[END]\n
-
 # !10=<[10]>,1
 # !11=<[11]>,1
 # !12=<[12]>,1
@@ -61,7 +59,6 @@
 # !57=<[57]>,1
 # !59=<[59]>,1
 # !5A=<[5A]>,1
-
 01=[01 NOP]
 02=[RET]
 03=[RALLY]
@@ -178,13 +175,11 @@
 5D=[SHOW LUC]
 5E=[HIDE LUC]
 5F=[CURRENT LUC]
-
 # Dual-tile encoding pairs
 # $60-$7C: ROM $077299-$0772D2
 # $D3-$FF: ROM $0772B9-$077312
 # Note that there is overlap from $70-7C and $D3-DF and that 
 # overlap (probably) isn't usable.
-
 60=e 
 61= t
 62=s 
@@ -214,7 +209,6 @@
 7A=! 
 7B=ar
 7C=hi
-
 D3=o 
 D4=ow
 D5= s
@@ -260,9 +254,7 @@ FC=t'
 FD= d
 FE=ay
 FF=go
-
 # Alphanumerics and some special symbols
-
 7F=*\n
 80= 
 81=a
