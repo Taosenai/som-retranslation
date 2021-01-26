@@ -2,7 +2,7 @@
 # https://wiki.superfamicom.org/seiken-densetsu-2#toc-10
 
 @main
-/00=[END]\n
+/00=[END]
 01=[01 NOP]
 02=[RET]
 03=[RALLY]
@@ -10,7 +10,7 @@
 05=[END INVIS]
 06=[RDY]
 07=[07 NOP]
-08=[THEN]\n
+08=[THEN]
 09=[09 NOP]
 0E=[SELL]
 0F=[UPGRADE]
@@ -50,7 +50,7 @@
 !25=<[25 CALL]>,1
 !26=<[26 CALL]>,1
 !27=<[27 CALL]>,1
-2800=\n[WAIT]
+2800=[WAIT]
 !28=<[WAIT 5*X]>,1
 !29=<[INC CNT]>,1
 !2A=<[DEC CNT]>,1
@@ -100,9 +100,9 @@
 !4D=<[4D NOP]>,3
 !4E=<[SKIP2 IF CHAR X DATA Y NOT Z]>,3
 4F=[FREEZE]
-50=[OPEN]\n
-51=\n[CLOSE]
-52=[CLEAR]\n
+50=[OPEN]
+51=[CLOSE]
+52=[CLEAR]
 53=[53 NOP]
 !54=<[ENEMY]>,1
 !55=<[WEAPON]>,1
@@ -111,10 +111,10 @@
 5701=[GIRL]
 5702=[SPRITE]
 !57=<[CHARA]>,1
-58=[DECISION]\n
+58=[DECISION]
 !59=<[XPOS]>,1
 !5A=<[SET CHOICE]>,1
-5B=\n[CHOOSE]
+5B=[CHOOSE]
 5C=[5C NOP]
 5D=[SHOW LUC]
 5E=[HIDE LUC]

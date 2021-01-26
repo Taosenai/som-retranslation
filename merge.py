@@ -32,8 +32,6 @@ def merge(source, dest):
 
 			while idx_ref < len(lines_ref) - 1:
 				nextline_ref = lines_ref[idx_ref+1]
-				if nextline_ref.find("村長「まさか") != -1:
-					print("here")
 				contains_jpn = re.search(pattern_kanjikana, nextline_ref) != None
 				if contains_jpn:
 					cleanline = re.sub(r"\[(BOY|GIRL|SPRITE)\]", r"{\1}", nextline_ref)

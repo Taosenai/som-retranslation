@@ -10,7 +10,8 @@ def banner(match):
 	return banner
 
 def clean(s):
-	s = sub(r'//POINTER #\d* @ (\$.*?) - STRING #\d* @ (\$.*?)\n', banner, s) # Prettify event address comments
+	# s = sub(r'//POINTER #\d* @ (\$.*?) - STRING #\d* @ (\$.*?)\n', banner, s) # Prettify event address comments
+	s = sub(r'//POINTER #\d* @ (\$.*?) - STRING #\d* @ (\$.*?)\n', '', s) # Delete comments
 	s = sub(r'// current address.*?\n', '', s) # Delete address bounds
 
 	return s
